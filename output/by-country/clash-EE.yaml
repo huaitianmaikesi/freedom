@@ -4,86 +4,54 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇪🇪 EE 01 - xiaohe
+- name: 🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe
+  server: 94.183.170.135
+  port: 443
+  udp: true
   type: vless
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇪🇪 爱沙尼亚 (Estonia) 02 - xiaohe
   server: 94.183.170.135
   port: 8443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
   udp: true
+  type: vless
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
   tls: true
-  skip-cert-verify: true
   servername: estproxy4.lockdwn.com
-- name: 🇪🇪 EE 02 - xiaohe
-  type: vless
-  server: 94.183.170.135
+  skip-cert-verify: false
+  client-fingerprint: firefox
+- name: 🇪🇪 爱沙尼亚 (Estonia) 03 - xiaohe
+  server: ee.shamanapp.online
   port: 443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
   udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 94.183.170.135
-- name: 🇪🇪 EE 03 - xiaohe
   type: vless
-  server: 94.183.170.135
-  port: 443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 94.183.170.135
-- name: 🇪🇪 EE 04 - xiaohe
-  type: vless
-  server: 94.183.170.135
-  port: 443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 94.183.170.135
-- name: 🇪🇪 EE 05 - xiaohe
-  type: vless
-  server: 94.183.170.135
-  port: 443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 94.183.170.135
+  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
+  tls: true
+  reality-opts:
+    public-key: wGMBs7bvzyzA0-OUiwSkOOTDEMdxEOsSdRzxiP8GGQY
+  servername: www.google.com
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: TunService
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇪🇪 EE 01 - xiaohe
-  - 🇪🇪 EE 02 - xiaohe
-  - 🇪🇪 EE 03 - xiaohe
-  - 🇪🇪 EE 04 - xiaohe
-  - 🇪🇪 EE 05 - xiaohe
+  - 🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe
+  - 🇪🇪 爱沙尼亚 (Estonia) 02 - xiaohe
+  - 🇪🇪 爱沙尼亚 (Estonia) 03 - xiaohe
 - name: AUTO
   type: url-test
-  url: https://www.google.com/generate_204
+  url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇪🇪 EE 01 - xiaohe
-  - 🇪🇪 EE 02 - xiaohe
-  - 🇪🇪 EE 03 - xiaohe
-  - 🇪🇪 EE 04 - xiaohe
-  - 🇪🇪 EE 05 - xiaohe
+  - 🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe
+  - 🇪🇪 爱沙尼亚 (Estonia) 02 - xiaohe
+  - 🇪🇪 爱沙尼亚 (Estonia) 03 - xiaohe
 rules:
 - MATCH,PROXIES
