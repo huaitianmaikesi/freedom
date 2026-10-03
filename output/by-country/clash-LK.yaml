@@ -13,8 +13,6 @@ proxies:
   network: ws
   ws-opts:
     path: /
-    headers:
-      Host: m.zoom.us
 proxy-groups:
 - name: PROXIES
   type: select

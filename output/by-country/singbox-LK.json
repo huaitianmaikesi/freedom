@@ -10,11 +10,7 @@
       "server_port": 80,
       "uuid": "1eaed465-d720-400b-9f9f-439600a2d093",
       "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "m.zoom.us"
-        }
+        "type": "ws"
       }
     },
     {
