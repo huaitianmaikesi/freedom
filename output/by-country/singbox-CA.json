@@ -22,7 +22,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -34,7 +34,7 @@
     {
       "type": "vmess",
       "tag": "🇨🇦 加拿大 (Canada) 03 - xiaohe",
-      "server": "134.195.196.211",
+      "server": "23.162.200.198",
       "server_port": 18000,
       "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
       "security": "auto"
@@ -56,20 +56,8 @@
       "password": "14fFPrbezE3HDZzsMOr6"
     },
     {
-      "type": "trojan",
-      "tag": "🇨🇦 加拿大 (Canada) 06 - xiaohe",
-      "server": "155.138.138.2",
-      "server_port": 443,
-      "password": "Trojan@82164024",
-      "tls": {
-        "enabled": true,
-        "server_name": "ca.tronsg.com",
-        "insecure": false
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 07 - xiaohe",
+      "tag": "🇨🇦 加拿大 (Canada) 06 - xiaohe",
       "server": "209.200.246.148",
       "server_port": 443,
       "uuid": "ca52e2b6-fb9f-4dac-b6dc-49da9923f251",
@@ -79,7 +67,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -90,25 +78,25 @@
     },
     {
       "type": "vmess",
-      "tag": "🇨🇦 加拿大 (Canada) 08 - xiaohe",
-      "server": "23.162.200.198",
+      "tag": "🇨🇦 加拿大 (Canada) 07 - xiaohe",
+      "server": "134.195.196.211",
       "server_port": 18000,
       "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
       "security": "auto"
     },
     {
       "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 09 - xiaohe",
-      "server": "51.222.200.165",
-      "server_port": 5000,
+      "tag": "🇨🇦 加拿大 (Canada) 08 - xiaohe",
+      "server": "51.79.49.116",
+      "server_port": 8882,
       "method": "aes-256-gcm",
-      "password": "Y6R9pAtvxxzmGC"
+      "password": "kDWvXYZoTBcGkC4"
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 10 - xiaohe",
-      "server": "511.150333.xyz",
-      "server_port": 21002,
+      "tag": "🇨🇦 加拿大 (Canada) 09 - xiaohe",
+      "server": "103.106.229.37",
+      "server_port": 21004,
       "uuid": "41b1c169-5905-4d98-b6a6-56896c25737c",
       "tls": {
         "enabled": true,
@@ -120,40 +108,20 @@
         "reality": {
           "enabled": true,
           "public_key": "HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU",
-          "short_id": "3ab8d93dd9b1a5be"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 11 - xiaohe",
-      "server": "milo.rubinaz.xyz",
-      "server_port": 8080,
-      "uuid": "6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8"
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 12 - xiaohe",
-      "server": "511.150333.xyz",
-      "server_port": 21004,
-      "uuid": "41b1c169-5905-4d98-b6a6-56896c25737c",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU",
           "short_id": "2df2bd9d8366cef1"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 13 - xiaohe",
+      "tag": "🇨🇦 加拿大 (Canada) 10 - xiaohe",
+      "server": "milo.rubinaz.xyz",
+      "server_port": 8080,
+      "uuid": "6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8"
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 加拿大 (Canada) 11 - xiaohe",
       "server": "511.150333.xyz",
       "server_port": 21003,
       "uuid": "41b1c169-5905-4d98-b6a6-56896c25737c",
@@ -173,7 +141,27 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 14 - xiaohe",
+      "tag": "🇨🇦 加拿大 (Canada) 12 - xiaohe",
+      "server": "511.150333.xyz",
+      "server_port": 21002,
+      "uuid": "41b1c169-5905-4d98-b6a6-56896c25737c",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU",
+          "short_id": "3ab8d93dd9b1a5be"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 加拿大 (Canada) 13 - xiaohe",
       "server": "511.150333.xyz",
       "server_port": 21001,
       "uuid": "41b1c169-5905-4d98-b6a6-56896c25737c",
@@ -193,19 +181,11 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 15 - xiaohe",
-      "server": "51.222.136.236",
-      "server_port": 8882,
+      "tag": "🇨🇦 加拿大 (Canada) 14 - xiaohe",
+      "server": "51.222.12.127",
+      "server_port": 445,
       "method": "aes-256-gcm",
-      "password": "kDWvXYZoTBcGkC4"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 16 - xiaohe",
-      "server": "64.74.163.67",
-      "server_port": 18764,
-      "method": "aes-128-gcm",
-      "password": "4efe1af272e7292139b889f6a63ee071"
+      "password": "zDNVedRFPQexG9v"
     },
     {
       "type": "selector",
@@ -225,9 +205,7 @@
         "🇨🇦 加拿大 (Canada) 11 - xiaohe",
         "🇨🇦 加拿大 (Canada) 12 - xiaohe",
         "🇨🇦 加拿大 (Canada) 13 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 14 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 15 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 16 - xiaohe"
+        "🇨🇦 加拿大 (Canada) 14 - xiaohe"
       ]
     },
     {
@@ -247,9 +225,7 @@
         "🇨🇦 加拿大 (Canada) 11 - xiaohe",
         "🇨🇦 加拿大 (Canada) 12 - xiaohe",
         "🇨🇦 加拿大 (Canada) 13 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 14 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 15 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 16 - xiaohe"
+        "🇨🇦 加拿大 (Canada) 14 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
