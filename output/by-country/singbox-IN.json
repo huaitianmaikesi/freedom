@@ -24,14 +24,14 @@
       }
     },
     {
-      "type": "trojan",
+      "type": "hysteria2",
       "tag": "🇮🇳 印度 (India) 02 - xiaohe",
-      "server": "in002.zestapp778.com",
-      "server_port": 42733,
-      "password": "5t6i121em5lkmsmk",
+      "server": "144.24.109.215",
+      "server_port": 51000,
+      "password": "d105c6ae-621b-47c1-b85b-075fd6a39aca",
       "tls": {
         "enabled": true,
-        "server_name": "in002.zestapp778.com",
+        "server_name": "cn.cremedelamer.com",
         "insecure": true
       }
     },
@@ -50,14 +50,14 @@
       }
     },
     {
-      "type": "hysteria2",
+      "type": "trojan",
       "tag": "🇮🇳 印度 (India) 04 - xiaohe",
-      "server": "144.24.109.215",
-      "server_port": 51000,
-      "password": "d105c6ae-621b-47c1-b85b-075fd6a39aca",
+      "server": "139.84.210.39",
+      "server_port": 42733,
+      "password": "5t6i121em5lkmsmk",
       "tls": {
         "enabled": true,
-        "server_name": "cn.cremedelamer.com",
+        "server_name": "in002.zestapp778.com",
         "insecure": true
       }
     },
