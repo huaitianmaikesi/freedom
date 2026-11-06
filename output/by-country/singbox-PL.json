@@ -25,13 +25,9 @@
         "enabled": true,
         "server_name": "ru1.radiolumens.uk",
         "insecure": false,
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ],
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         }
       },
       "transport": {
