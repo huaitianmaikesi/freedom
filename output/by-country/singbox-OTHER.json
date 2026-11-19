@@ -6,30 +6,7 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "172.67.190.141",
-      "server_port": 443,
-      "uuid": "a25a71d1-10ed-4383-855a-f269a34ca691",
-      "tls": {
-        "enabled": true,
-        "server_name": "ave-qualifications-choices-populations.trycloudflare.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/a8b8606819ef",
-        "headers": {
-          "Host": "ave-qualifications-choices-populations.trycloudflare.com"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 其他地区 (Other) 02 - xiaohe",
-      "server": "172.66.132.196",
+      "server": "104.21.55.229",
       "server_port": 443,
       "uuid": "a25a71d1-10ed-4383-855a-f269a34ca691",
       "tls": {
@@ -54,16 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🌐 其他地区 (Other) 01 - xiaohe",
-        "🌐 其他地区 (Other) 02 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🌐 其他地区 (Other) 01 - xiaohe",
-        "🌐 其他地区 (Other) 02 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
